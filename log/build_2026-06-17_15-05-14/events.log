@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'antonie_description'}
+[0.000269] (my_manipulator) JobQueued: {'identifier': 'my_manipulator', 'dependencies': OrderedDict({'antonie_description': '/home/user/ros2_ws/install/antonie_description'})}
+[0.000801] (my_manipulator) JobStarted: {'identifier': 'my_manipulator'}
+[0.008527] (my_manipulator) JobEnded: {'identifier': 'my_manipulator', 'rc': 1}
+[0.018984] (-) EventReactorShutdown: {}

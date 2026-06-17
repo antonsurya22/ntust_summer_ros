@@ -1,1 +1,2 @@
-/home/user/ros2_ws/build/antonie_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/antonie_description/environment/ament_prefix_path.sh
+source;share/antonie_description/environment/path.sh

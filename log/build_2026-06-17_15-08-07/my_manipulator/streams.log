@@ -1,0 +1,43 @@
+[0.604s] Invoking command in '/home/user/ros2_ws/my_manipulator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/my_manipulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_manipulator build --build-base /home/user/ros2_ws/build/my_manipulator/build install --record /home/user/ros2_ws/build/my_manipulator/install.log --single-version-externally-managed install_data
+[0.795s] running egg_info
+[0.795s] creating ../build/my_manipulator/my_manipulator.egg-info
+[0.810s] writing ../build/my_manipulator/my_manipulator.egg-info/PKG-INFO
+[0.812s] writing dependency_links to ../build/my_manipulator/my_manipulator.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../build/my_manipulator/my_manipulator.egg-info/entry_points.txt
+[0.812s] writing requirements to ../build/my_manipulator/my_manipulator.egg-info/requires.txt
+[0.812s] writing top-level names to ../build/my_manipulator/my_manipulator.egg-info/top_level.txt
+[0.812s] writing manifest file '../build/my_manipulator/my_manipulator.egg-info/SOURCES.txt'
+[0.840s] reading manifest file '../build/my_manipulator/my_manipulator.egg-info/SOURCES.txt'
+[0.843s] adding license file 'LICENSE'
+[0.843s] writing manifest file '../build/my_manipulator/my_manipulator.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] creating /home/user/ros2_ws/build/my_manipulator/build
+[0.843s] creating /home/user/ros2_ws/build/my_manipulator/build/lib
+[0.843s] creating /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator
+[0.843s] copying my_manipulator/gripper_control.py -> /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator
+[0.844s] copying my_manipulator/__init__.py -> /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator
+[0.844s] copying my_manipulator/trajectory_publisher.py -> /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator
+[0.844s] running install
+[0.847s] running install_lib
+[0.860s] creating /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator
+[0.860s] copying /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator/gripper_control.py -> /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator
+[0.861s] copying /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator/__init__.py -> /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator
+[0.861s] copying /home/user/ros2_ws/build/my_manipulator/build/lib/my_manipulator/trajectory_publisher.py -> /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator
+[0.861s] byte-compiling /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator/gripper_control.py to gripper_control.cpython-312.pyc
+[0.861s] byte-compiling /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator/__init__.py to __init__.cpython-312.pyc
+[0.862s] byte-compiling /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator/trajectory_publisher.py to trajectory_publisher.cpython-312.pyc
+[0.863s] running install_data
+[0.863s] creating /home/user/ros2_ws/install/my_manipulator/share/ament_index
+[0.863s] creating /home/user/ros2_ws/install/my_manipulator/share/ament_index/resource_index
+[0.863s] creating /home/user/ros2_ws/install/my_manipulator/share/ament_index/resource_index/packages
+[0.863s] copying resource/my_manipulator -> /home/user/ros2_ws/install/my_manipulator/share/ament_index/resource_index/packages
+[0.863s] creating /home/user/ros2_ws/install/my_manipulator/share/my_manipulator/launch
+[0.863s] copying launch/display.launch.py -> /home/user/ros2_ws/install/my_manipulator/share/my_manipulator/launch
+[0.863s] running install_egg_info
+[0.877s] Copying ../build/my_manipulator/my_manipulator.egg-info to /home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages/my_manipulator-0.0.0-py3.12.egg-info
+[0.878s] running install_scripts
+[0.978s] Installing gripper_control script to /home/user/ros2_ws/install/my_manipulator/lib/my_manipulator
+[0.978s] Installing trajectory_publisher script to /home/user/ros2_ws/install/my_manipulator/lib/my_manipulator
+[0.978s] writing list of installed files to '/home/user/ros2_ws/build/my_manipulator/install.log'
+[0.998s] Invoked command in '/home/user/ros2_ws/my_manipulator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/my_manipulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/my_manipulator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_manipulator build --build-base /home/user/ros2_ws/build/my_manipulator/build install --record /home/user/ros2_ws/build/my_manipulator/install.log --single-version-externally-managed install_data

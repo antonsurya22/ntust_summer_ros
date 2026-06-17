@@ -1,0 +1,3 @@
+[console_scripts]
+gripper_control = my_manipulator.gripper_control:main
+trajectory_publisher = my_manipulator.trajectory_publisher:main
