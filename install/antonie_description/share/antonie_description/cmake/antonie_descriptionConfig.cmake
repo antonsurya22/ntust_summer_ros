@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/antonie_description/ament_cmake_core/antonie_descriptionConfig.cmake

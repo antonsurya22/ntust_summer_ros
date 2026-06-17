@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <let name="urdf_file" value="$(find-pkg-share antonie_description)/urdf/antonie.urdf" />
+	
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="robot_description" value="$(command 'cat $(var urdf_file)')" type="str" />
+  </node>
+
+  <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen" />
+</launch>

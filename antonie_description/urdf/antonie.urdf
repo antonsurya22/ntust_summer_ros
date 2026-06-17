@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<robot name="three_joint_gripper">
+
+  <!-- World or Arm connection link -->
+  <link name="world"/>
+
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="gripper_base"/>
+  </joint>
+
+  <!-- Gripper Base / Palm -->
+  <link name="gripper_base">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.05"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.05"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- REVOLUTE JOINT 1: Right Finger -->
+  <joint name="right_finger_joint" type="revolute">
+    <parent link="gripper_base"/>
+    <child link="right_finger"/>
+    <origin xyz="0.05 0.0 0.0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0.0" upper="1.0" effort="10.0" velocity="0.5"/>
+  </joint>
+
+  <link name="right_finger">
+    <visual>
+      <geometry>
+        <box size="0.02 0.1 0.02"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- REVOLUTE JOINT 2: Left Finger -->
+  <joint name="left_finger_joint" type="revolute">
+    <parent link="gripper_base"/>
+    <child link="left_finger"/>
+    <origin xyz="-0.05 0.0 0.0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.0" upper="0.0" effort="10.0" velocity="0.5"/>
+  </joint>
+
+  <link name="left_finger">
+    <visual>
+      <geometry>
+        <box size="0.02 0.1 0.02"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- REVOLUTE JOINT 3: Base Wrist/Rotation Joint -->
+  <joint name="wrist_roll_joint" type="revolute">
+    <parent link="gripper_base"/>
+    <child link="wrist_mount"/>
+    <origin xyz="0.0 0.0 0.05" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="50.0" velocity="1.0"/>
+  </joint>
+
+  <link name="wrist_mount">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.02"/>
+      </geometry>
+    </visual>
+  </link>
+
+</robot>
+

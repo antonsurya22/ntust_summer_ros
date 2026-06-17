@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/user/ros2_ws/build/antonie_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/antonie_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/antonie_description
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.130s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.221s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.222s] -- Detecting C compile features
+[0.222s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.327s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.337s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.458s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.512s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.548s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.633s] -- Added test 'lint_cmake' to check CMake code style
+[0.634s] -- Added test 'xmllint' to check XML markup files
+[0.636s] -- Configuring done (0.6s)
+[0.638s] -- Generating done (0.0s)
+[0.639s] -- Build files have been written to: /home/user/ros2_ws/build/antonie_description
+[0.645s] Invoked command in '/home/user/ros2_ws/build/antonie_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/antonie_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/antonie_description
+[0.646s] Invoking command in '/home/user/ros2_ws/build/antonie_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/antonie_description -- -j4 -l4
+[0.687s] Invoked command in '/home/user/ros2_ws/build/antonie_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/antonie_description -- -j4 -l4
+[0.695s] Invoking command in '/home/user/ros2_ws/build/antonie_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/antonie_description
+[0.701s] -- Install configuration: ""
+[0.702s] -- Execute custom install script
+[0.703s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/launch/description_test.launch.xml
+[0.712s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/urdf/antonie.urdf
+[0.720s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/urdf/antonie2.urdf
+[0.728s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/ament_index/resource_index/package_run_dependencies/antonie_description
+[0.737s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/ament_index/resource_index/parent_prefix_path/antonie_description
+[0.744s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/environment/ament_prefix_path.sh
+[0.752s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/environment/ament_prefix_path.dsv
+[0.760s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/environment/path.sh
+[0.768s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/environment/path.dsv
+[0.777s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/local_setup.bash
+[0.784s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/local_setup.sh
+[0.793s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/local_setup.zsh
+[0.801s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/local_setup.dsv
+[0.809s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/package.dsv
+[0.817s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/ament_index/resource_index/packages/antonie_description
+[0.824s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/cmake/antonie_descriptionConfig.cmake
+[0.832s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/cmake/antonie_descriptionConfig-version.cmake
+[0.841s] -- Symlinking: /home/user/ros2_ws/install/antonie_description/share/antonie_description/package.xml
+[0.850s] Invoked command in '/home/user/ros2_ws/build/antonie_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/antonie_description
