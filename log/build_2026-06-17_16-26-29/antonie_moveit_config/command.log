@@ -1,0 +1,2 @@
+Invoking command in '/home/user/ros2_ws/build/antonie_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/antonie_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/antonie_moveit_config
+Invoked command in '/home/user/ros2_ws/build/antonie_moveit_config' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/antonie_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/antonie_moveit_config
