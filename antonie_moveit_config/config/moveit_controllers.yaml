@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 moveit_sim_hw_interface:
   joint_model_group: antonie_arm
   joint_model_group_pose: home
@@ -9,14 +10,33 @@ moveit_controllers:
     type: FollowJointTrajectory
     action_ns: follow_joint_trajectory
     default: true
+=======
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+
+  arm_controller:
+    type: FollowJointTrajectory
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
     joints:
       - arm_0_joint
       - arm_1_joint
       - arm_2_joint
   gripper_controller:
     type: FollowJointTrajectory
+<<<<<<< HEAD
     action_ns: follow_joint_trajectory
     default: true
     joints:
       - gripper_1_joint
       - gripper_2_joint
+=======
+    joints:
+      - gripper_1_joint
+      - gripper_2_joint
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0

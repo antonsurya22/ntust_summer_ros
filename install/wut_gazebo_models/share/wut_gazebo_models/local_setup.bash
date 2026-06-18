@@ -1,1 +1,0 @@
-/home/user/ros2_ws/build/wut_gazebo_models/ament_cmake_environment_hooks/local_setup.bash

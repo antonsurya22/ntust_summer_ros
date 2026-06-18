@@ -36,6 +36,7 @@
   </link>
 
   <link name="link_3">
+<<<<<<< HEAD
     <inertial>
       <mass value="0.1"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -48,6 +49,16 @@
       <geometry>
         <sphere radius="0.01"/>
       </geometry>
+=======
+    <visual>
+      <origin xyz="0 0 0.2"/>
+      <geometry><cylinder length="0.4" radius="0.06"/></geometry>
+      <material name="white"><color rgba="1.0 1.0 1.0 1.0"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.2"/>
+      <geometry><cylinder length="0.4" radius="0.06"/></geometry>
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
     </collision>
   </link>
 

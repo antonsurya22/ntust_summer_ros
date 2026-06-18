@@ -6,7 +6,11 @@
   <description>
      An automatically generated package with all the configuration and launch files for using the antonie with the MoveIt Motion Planning Framework
   </description>
+<<<<<<< HEAD
   <maintainer email="anton@gmail.com">Antonie</maintainer>
+=======
+  <maintainer email="">anton@gmail.com</maintainer>
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
 
   <license>BSD-3-Clause</license>
 
@@ -14,7 +18,11 @@
   <url type="bugtracker">https://github.com/moveit/moveit2/issues</url>
   <url type="repository">https://github.com/moveit/moveit2</url>
 
+<<<<<<< HEAD
   <author email="anton@gmail.com">Antonie</author>
+=======
+  <author email="">anton@gmail.com</author>
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
@@ -45,7 +53,11 @@
   <exec_depend>warehouse_ros_mongo</exec_depend>
   <exec_depend>xacro</exec_depend>
 
+<<<<<<< HEAD
   <exec_depend>wut_gazebo_models</exec_depend>
+=======
+
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
   <export>
       <build_type>ament_cmake</build_type>
   </export>

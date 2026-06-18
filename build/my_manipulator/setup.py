@@ -1,1 +1,0 @@
-/home/user/ros2_ws/my_manipulator/setup.py

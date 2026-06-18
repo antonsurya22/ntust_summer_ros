@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
@@ -68,4 +69,12 @@ def generate_launch_description():
         .robot_description(file_path="config/antonie_new.urdf.xacro")
         .to_moveit_configs()
     )
+=======
+from moveit_configs_utils import MoveItConfigsBuilder
+from moveit_configs_utils.launches import generate_move_group_launch
+
+
+def generate_launch_description():
+    moveit_config = MoveItConfigsBuilder("antonie", package_name="antonie_moveit_config").to_moveit_configs()
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
     return generate_move_group_launch(moveit_config)

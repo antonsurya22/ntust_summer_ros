@@ -1,1 +1,0 @@
-/home/user/ros2_ws/build/my_manipulator/launch/display.launch.py

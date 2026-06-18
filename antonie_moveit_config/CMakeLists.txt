@@ -12,5 +12,9 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/launch")
     PATTERN "setup_assistant.launch" EXCLUDE)
 endif()
 
+<<<<<<< HEAD
 install(DIRECTORY config launch DESTINATION share/${PROJECT_NAME})
+=======
+install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+>>>>>>> f3f53f246733e0675b91411c0f4956e9693bdbf0
 install(FILES .setup_assistant DESTINATION share/${PROJECT_NAME})

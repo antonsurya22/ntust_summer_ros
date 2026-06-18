@@ -1,1 +1,0 @@
-/home/user/ros2_ws/antonie_moveit_config/launch/static_virtual_joint_tfs.launch.py
