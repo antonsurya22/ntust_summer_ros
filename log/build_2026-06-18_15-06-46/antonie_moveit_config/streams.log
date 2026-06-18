@@ -1,0 +1,75 @@
+[0.017s] Invoking command in '/home/user/ros2_ws/build/antonie_moveit_config': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/antonie_description:/home/user/ros2_ws/install/wut_gazebo_models:/home/user/ros2_ws/install/antonie_gazebo:/home/user/ros2_ws/install/antonie_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/antonie_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/antonie_moveit_config
+[0.086s] -- The C compiler identification is GNU 13.3.0
+[0.128s] -- The CXX compiler identification is GNU 13.3.0
+[0.157s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.519s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.684s] -- Configuring done (0.7s)
+[0.686s] -- Generating done (0.0s)
+[0.693s] -- Build files have been written to: /home/user/ros2_ws/build/antonie_moveit_config
+[0.711s] Invoked command in '/home/user/ros2_ws/build/antonie_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/antonie_description:/home/user/ros2_ws/install/wut_gazebo_models:/home/user/ros2_ws/install/antonie_gazebo:/home/user/ros2_ws/install/antonie_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/antonie_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/antonie_moveit_config
+[0.713s] Invoking command in '/home/user/ros2_ws/build/antonie_moveit_config': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/antonie_description:/home/user/ros2_ws/install/wut_gazebo_models:/home/user/ros2_ws/install/antonie_gazebo:/home/user/ros2_ws/install/antonie_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/antonie_moveit_config -- -j4 -l4
+[0.760s] Invoked command in '/home/user/ros2_ws/build/antonie_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/antonie_description:/home/user/ros2_ws/install/wut_gazebo_models:/home/user/ros2_ws/install/antonie_gazebo:/home/user/ros2_ws/install/antonie_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/antonie_moveit_config -- -j4 -l4
+[0.771s] Invoking command in '/home/user/ros2_ws/build/antonie_moveit_config': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/antonie_description:/home/user/ros2_ws/install/wut_gazebo_models:/home/user/ros2_ws/install/antonie_gazebo:/home/user/ros2_ws/install/antonie_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/antonie_moveit_config
+[0.785s] -- Install configuration: ""
+[0.787s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/ament_index/resource_index/package_run_dependencies/antonie_moveit_config
+[0.787s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/ament_index/resource_index/parent_prefix_path/antonie_moveit_config
+[0.787s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/environment/ament_prefix_path.sh
+[0.787s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/environment/ament_prefix_path.dsv
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/environment/path.sh
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/environment/path.dsv
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/local_setup.bash
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/local_setup.sh
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/local_setup.zsh
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/local_setup.dsv
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/package.dsv
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/ament_index/resource_index/packages/antonie_moveit_config
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/cmake/antonie_moveit_configConfig.cmake
+[0.788s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/cmake/antonie_moveit_configConfig-version.cmake
+[0.795s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/package.xml
+[0.795s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch
+[0.795s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/moveit_rviz.launch.py
+[0.796s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/setup_assistant.launch.py
+[0.796s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/demo.launch.py
+[0.796s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/move_group.launch (Copy).py
+[0.796s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/warehouse_db.launch.py
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/spawn_controllers.launch.py
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/move_group.launch.py
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/rsp.launch.py
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/antonie.urdf.xacro
+[0.799s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/ompl_planning.yaml
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/ros2_controllers.yaml
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/initial_positions.yaml
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/joint_limits.yaml
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/antonie_output.urdf.xacro
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/moveit_controllers.yaml
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/moveit.rviz
+[0.800s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/antonie.ros2_control.xacro
+[0.801s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/antonie_new.urdf.xacro
+[0.801s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/kinematics.yaml
+[0.801s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/antonie.srdf
+[0.801s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/pilz_cartesian_limits.yaml
+[0.801s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/config/moveit_controllers (Copy).yaml
+[0.801s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch
+[0.801s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/moveit_rviz.launch.py
+[0.801s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/setup_assistant.launch.py
+[0.801s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/demo.launch.py
+[0.801s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/move_group.launch (Copy).py
+[0.802s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.802s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/warehouse_db.launch.py
+[0.802s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/spawn_controllers.launch.py
+[0.802s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/move_group.launch.py
+[0.802s] -- Up-to-date: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/launch/rsp.launch.py
+[0.803s] -- Installing: /home/user/ros2_ws/install/antonie_moveit_config/share/antonie_moveit_config/.setup_assistant
+[0.803s] Invoked command in '/home/user/ros2_ws/build/antonie_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/antonie_description:/home/user/ros2_ws/install/wut_gazebo_models:/home/user/ros2_ws/install/antonie_gazebo:/home/user/ros2_ws/install/antonie_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/antonie_moveit_config

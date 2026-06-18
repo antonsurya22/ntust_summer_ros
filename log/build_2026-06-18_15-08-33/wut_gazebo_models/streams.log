@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/user/ros2_ws/build/wut_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/wut_gazebo_models -- -j4 -l4
+[0.075s] Invoked command in '/home/user/ros2_ws/build/wut_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/wut_gazebo_models -- -j4 -l4
+[0.075s] Invoking command in '/home/user/ros2_ws/build/wut_gazebo_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/wut_gazebo_models
+[0.082s] -- Install configuration: ""
+[0.082s] -- Execute custom install script
+[0.082s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/models/table/model.config
+[0.083s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/models/table/model.sdf
+[0.083s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/models/table/table_diffuse.jpg
+[0.083s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/models/yellow_cylinder/model.config
+[0.083s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/models/yellow_cylinder/model.sdf
+[0.083s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/ament_index/resource_index/package_run_dependencies/wut_gazebo_models
+[0.083s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/ament_index/resource_index/parent_prefix_path/wut_gazebo_models
+[0.084s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/environment/path.sh
+[0.084s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/environment/path.dsv
+[0.084s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/local_setup.bash
+[0.084s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/local_setup.sh
+[0.085s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/local_setup.zsh
+[0.085s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/local_setup.dsv
+[0.085s] -- Symlinking: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/package.dsv
+[0.100s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/ament_index/resource_index/packages/wut_gazebo_models
+[0.100s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/cmake/wut_gazebo_modelsConfig.cmake
+[0.100s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/cmake/wut_gazebo_modelsConfig-version.cmake
+[0.100s] -- Up-to-date symlink: /home/user/ros2_ws/install/wut_gazebo_models/share/wut_gazebo_models/package.xml
+[0.133s] Invoked command in '/home/user/ros2_ws/build/wut_gazebo_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_manipulator:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/wut_gazebo_models

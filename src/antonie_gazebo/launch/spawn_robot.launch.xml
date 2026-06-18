@@ -1,0 +1,31 @@
+<launch>
+  <set_parameter name="use_sim_time" value="True" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" exec="robot_state_publisher" output="screen">
+    <param name="robot_description"
+           value="$(command 'xacro $(find-pkg-share antonie_moveit_config)/config/antonie_new.urdf.xacro')"
+           type="str" />
+  </node>
+
+  <node name="gz_spawn_model" pkg="ros_gz_sim" exec="create" output="screen">
+    <param name="topic" value="/robot_description" />
+    <param name="name" value="antonie" />
+    <param name="allow_renaming" value="false" />
+  </node>
+
+  <node name="joint_state_broadcaster_spawner" pkg="controller_manager" exec="spawner"
+        args="joint_state_broadcaster -c /controller_manager" output="screen" />
+
+  <node name="arm_controller_spawner" pkg="controller_manager" exec="spawner"
+        args="arm_controller -c /controller_manager" output="screen" />
+
+  <node name="gripper_controller_spawner" pkg="controller_manager" exec="spawner"
+        args="gripper_controller -c /controller_manager" output="screen" />
+
+  <include file="$(find-pkg-share antonie_moveit_config)/launch/move_group.launch.py">
+    <arg name="use_sim_time" value="True"/>
+  </include>
+
+  <node name="rviz2" pkg="rviz2" exec="rviz2" output="screen"
+        args="-d $(find-pkg-share antonie_moveit_config)/moveit.rviz" />
+</launch>

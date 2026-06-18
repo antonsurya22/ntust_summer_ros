@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/wut_gazebo_models/ament_cmake_core/wut_gazebo_modelsConfig-version.cmake

@@ -1,0 +1,12 @@
+planning_plugins:
+  - ompl_interface/OMPLPlanner
+request_adapters:
+  - default_planning_request_adapters/AddTimeOptimalParameterization
+  - default_planning_request_adapters/ResolveConstraintFrames
+  - default_planning_request_adapters/FixWorkspaceBounds
+  - default_planning_request_adapters/FixStartStateBounds
+  - default_planning_request_adapters/FixStartStateCollision
+  - default_planning_request_adapters/FixStartStatePathConstraints
+antonie_arm:  # Must match your SRDF planning group name exactly!
+  planner_configs:
+    - RRTConnectkConfigDefault

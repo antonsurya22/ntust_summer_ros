@@ -1,0 +1,4 @@
+source;share/wut_gazebo_models/local_setup.bash
+source;share/wut_gazebo_models/local_setup.dsv
+source;share/wut_gazebo_models/local_setup.sh
+source;share/wut_gazebo_models/local_setup.zsh

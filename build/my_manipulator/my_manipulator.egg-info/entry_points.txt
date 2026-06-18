@@ -1,0 +1,4 @@
+[console_scripts]
+gripper_control = my_manipulator.gripper_control:main
+moveit_py_example_node = my_manipulator.moveit_py_example:main
+trajectory_publisher = my_manipulator.trajectory_publisher:main

@@ -1,0 +1,1 @@
+/home/user/ros2_ws/my_manipulator/launch/moveit_py_node.launch.py

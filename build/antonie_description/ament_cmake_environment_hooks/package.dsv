@@ -1,0 +1,4 @@
+source;share/antonie_description/local_setup.bash
+source;share/antonie_description/local_setup.dsv
+source;share/antonie_description/local_setup.sh
+source;share/antonie_description/local_setup.zsh
